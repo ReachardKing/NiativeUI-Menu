@@ -1,6 +1,6 @@
 (C) Do not redistribute this files. 
 By Mackenzie_Rich
-# NiativeUI-Menu
+# Auto Turn Off
 A NiativeUI Menu. Rewrite it this code. Don't  DM me if there is any problems.
 Links:
 https://www.instagram.com add me on intagram @ Physics_is_ki
