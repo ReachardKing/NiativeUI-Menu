@@ -1,0 +1,9 @@
+This is a Menu script, made by me, this is a Menu where you can go out to AI call and new on, will try and make the afect RP sides of things. 
+description Server side trainer for all my personal the server with permissions.
+name TheFuturesMenu
+Version none
+author Mackenzie_Rich
+
+Commands:
+Everyone can use it,
+/TheFuturesMenuMenu - opens The Menu
