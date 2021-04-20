@@ -9,5 +9,4 @@ Join if you want to RP with me https://discord.gg/hvhZCdvf96.
 Join if you want to chill with me https://discord.gg/hwWs5pd
 Have fun
 Rewrite this whole code. 
-There will be updates.
 [Mods.txt](https://github.com/ReachardKing/NiativeUI-Menu/files/6345803/Mods.txt)
