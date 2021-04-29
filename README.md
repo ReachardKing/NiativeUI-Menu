@@ -11,3 +11,4 @@ Have fun
 Rewrite this whole code. 
  Read [Mods.txt](https://github.com/ReachardKing/NiativeUI-Menu/files/6345803/Mods.txt) and 
 Read [CopyRight_of_CanadianRP.txt](https://github.com/ReachardKing/NiativeUI-Menu/files/6345809/CopyRight_of_CanadianRP.txt)
+NO support 
