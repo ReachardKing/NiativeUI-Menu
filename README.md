@@ -1,4 +1,4 @@
-(C) Do not redistribute this files. 
+(C) Do not redistribute this files or claims the resources has your own. 
 By Mackenzie_Rich
 # My Mods
 A NiativeUI Menu. Rewrite it this code. Don't  DM me if there is any problems.
