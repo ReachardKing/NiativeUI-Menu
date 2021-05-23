@@ -1,7 +1,8 @@
 (C) Do not redistribute this files or claims the resources has your own. 
 By Mackenzie_Rich
 # My Mods
-A NiativeUI Menu. Rewrite it this code. Don't  DM me if there is any problems.
+Some  NiativeUI Menu.
+Don't  DM me if there is any problems.
 Links:
 https://www.instagram.com add me on intagram @ Physics_is_ki
 https://mobile.twitter.com/home @Robery122.
