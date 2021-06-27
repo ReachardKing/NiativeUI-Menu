@@ -12,3 +12,4 @@ Have fun, with this resources.
  Read [Mods.txt](https://github.com/ReachardKing/NiativeUI-Menu/files/6345803/Mods.txt) and 
 Read [CopyRight_of_CanadianRP.txt](https://github.com/ReachardKing/NiativeUI-Menu/files/6345809/CopyRight_of_CanadianRP.txt)
 NO Support 
+ The Emotes im here wors out sode af any memu, that why i uploaded it like that. And not in a menu fromart, like others. 
