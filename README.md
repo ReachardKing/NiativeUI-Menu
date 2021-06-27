@@ -4,7 +4,7 @@ By Mackenzie_Rich
 Some  NiativeUI Menu.
 Don't  DM me if there is any problems.
 Links:
-https://www.instagram.com add me on intagram @ Physics_is_ki
+https://www.instagram.com add me on intagram @Physics_is_ki &&
 https://mobile.twitter.com/home @Robery122.
 Join if you want to RP with me  https://discord.gg/eWuaSbb4Xv.
 Join if you want to chill with me https://discord.gg/hwWs5pd
