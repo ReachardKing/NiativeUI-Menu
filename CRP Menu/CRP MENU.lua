@@ -68,10 +68,55 @@ end
              SetPedIntoVehicle(PlayerPedId(), pedsCar, vehSeat)
          end
         end    
-     submenu:AddItem(carItem)
-     submenu:AddItem(seat)
+   local Delete = NativeUI.CreateItem("~r~Delete", "This will deleted your car for good, Are you Sure?") 
+    submenu.OnItemSelect = function (sender, item, checked_)
+               -- check if what changed is from this menu
+            if item == Delete then
+                local Delete = item:IndexToItem(index)
+                Deleteveh()
+                notify("Deleted")
+            end
+    end
+    local Cancel = NativeUI.CreateItem("Cancel", "No, i do not want mu vehicle delete")
+    submenu.OnItemSelect = function(sender, item, checked_)
+            if item == Cancel then
+                local Cancel = item:IndexToItem(index)
+                menu:Cencel()
+                notify("~g~Camceled??")
+            end
+    end 
+    submenu:AddItem(carItem)
+    submenu:AddItem(seat)
+    submenu:AddItem(Delete)
+    submenu:AddItem(Cancel)
 end 
-                                 
+
+ function SeventhItem(menu)
+    local submenu = _menuPool:AddSubMenu(menu, "~r~Delete", "Allows you to delete your car")
+    menu.OnItemSelect = function (sender, item, checked_)
+        if item == Delete then
+            DeleteCurrentVehicle()
+            notify("You've Selected this Item")
+        end
+    end
+    local Delete = NativeUI.CreateItem("~r~Delete", "This will deleted your car for good, Are you Sure?") 
+    submenu.OnItemSelect = function (sender, item, checked_)
+        -- check if what changed is from this menu
+        if item == Delete then
+            Deleteveh()
+            notify("Deleted")
+        end
+    end
+    local Cancel = NativeUI.CreateItem("Cancel", "No, i do not want mu vehicle delete")
+    submenu.OnItemSelect = function(sender, item, checked_)
+        if item == Cancel then
+                menu:Cencel()
+                notify("~g~Camceled??")
+            end
+        end
+        submenu:AddItem(Delete)
+        submenu:AddItem(Cancel)
+end                               
 -- this menu is a checkbox item FifthItem
 function FifthItem(menu)
     local checkbox = NativeUI.CreateCheckboxItem("Save Menu", "Seves the Menu changes")
