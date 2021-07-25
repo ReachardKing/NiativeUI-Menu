@@ -1,5 +1,5 @@
 _menuPool = NativeUI.CreatePool()
-mainMenu = NativeUI.CreateMenu("FireFighteMenu", "~r~Were Canadian's do it Right")
+mainMenu = NativeUI.CreateMenu("FireFighteMenu", "")
 _menuPool:Add(mainMenu)
 
 bool = false
