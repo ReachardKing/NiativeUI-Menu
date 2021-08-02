@@ -93,3 +93,5 @@ function spawnCar(car)
 
     --[[ SetEntityAsMissionEntity(vehicle, true, true) ]]
 end 
+ 
+print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
