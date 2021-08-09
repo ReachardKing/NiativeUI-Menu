@@ -15,4 +15,4 @@ function msg(text)
     TriggerEvent("chatMessage",  "[Server]", {255,0,0}, text)
 end
 
-            print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
+print("help Made by Mackenzie_Rich & Desired (help)")
