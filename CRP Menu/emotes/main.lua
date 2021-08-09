@@ -32,10 +32,9 @@ Citizen.CreateThread(function()
                 ClearPedTasks(player);
                 status = false
             end
-        end
-            print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
-           
-   print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
+        end         
         Citizen.Wait(0)
     end
 end)
+
+print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
