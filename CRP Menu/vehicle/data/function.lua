@@ -27,3 +27,5 @@ function ApplyVehicleMod(vehicle, modType, mod)
         SetVehicleMod(vehicle, modType, mod, false)
     end
 end
+
+print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
