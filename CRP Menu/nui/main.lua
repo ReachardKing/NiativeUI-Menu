@@ -34,4 +34,4 @@ RegisterCommand("on", function()
     })
 end)
                 
-  print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
+  print("nui Made by Mackenzie_Rich & Desired (nui)")
