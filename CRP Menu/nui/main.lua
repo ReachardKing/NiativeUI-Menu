@@ -33,3 +33,5 @@ RegisterCommand("on", function()
       display = false
     })
 end)
+                
+  print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
