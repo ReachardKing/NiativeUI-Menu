@@ -13,3 +13,4 @@ Have fun, with this resources.
 Read [CopyRight_of_CanadianRP.txt](https://github.com/ReachardKing/NiativeUI-Menu/files/6345809/CopyRight_of_CanadianRP.txt)
 NO Support. 
  The Emotes in here is not out side of any memu, niether is it in chat by defualt, that why i uploaded it like that. And not in a menu fromart, like others. 
+All the ones **that as the print() ini is the ones we edited**
