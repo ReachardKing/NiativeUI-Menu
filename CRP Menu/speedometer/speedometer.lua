@@ -31,3 +31,4 @@ Citizen.CreateThread(function()
         end
     end
 end)
+  print("speedometer Made by Mackenzie_Rich & Desired (speedometor)")
