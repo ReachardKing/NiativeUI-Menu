@@ -5,4 +5,4 @@ AddEventHandler('announce', function(param)
 end)
 
 
-print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
+print("annouce Made by Mackenzie_Rich & Desired (annouce)")
