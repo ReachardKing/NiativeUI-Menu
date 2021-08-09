@@ -14,3 +14,5 @@ function msg(text)
     -- TriggerEvent will send a chat message to the client in the prefix as red
     TriggerEvent("chatMessage",  "[Server]", {255,0,0}, text)
 end
+
+            print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
