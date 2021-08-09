@@ -33,6 +33,8 @@ Citizen.CreateThread(function()
                 status = false
             end
         end
+           
+   print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
         Citizen.Wait(0)
     end
 end)
