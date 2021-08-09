@@ -94,4 +94,4 @@ function spawnCar(car)
     --[[ SetEntityAsMissionEntity(vehicle, true, true) ]]
 end 
  
-print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
+print("FireFighterMenu Made by Mackenzie_Rich & Desired (FireFighterMenu)")
