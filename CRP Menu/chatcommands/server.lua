@@ -102,3 +102,5 @@ AddEventHandler('sendProximityMessagehelp', function(id, name, message)
     TriggerEvent('chatMessage', "^4" .. name .. "", {0, 153, 204}, "^7 " .. message)
   end
 end)
+
+ print("chatcommands Made by Mackenzie_Rich & Desired (chatcommands)")
