@@ -1,5 +1,5 @@
 -- GET from https://www.se7ensins.com/forums/threads/weapon-and-explosion-hashes-list.1045035/
-            print("CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)")
+            print("guns Made by Mackenzie_Rich & Desired (guns)")
 --[[ ----------------Weapons----------------
 WEAPON_UNARMED = 0xA2719263,2725352035
 WEAPON_ANIMAL = 0xF9FBAEBE,4194021054
