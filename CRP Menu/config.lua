@@ -6,13 +6,13 @@ Citizen.CreateThread(function()
 	local currentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version', 0)
 
 	function VersionCheckHTTPRequest()
-		PerformHttpRequest('https://semdevelopment.com/releases/interactionmenu/info/version.json', VersionCheck, 'GET')
+		PerformHttpRequest('https://github.com/ReachardKing/NiativeUI-Menu', VersionCheck, 'GET')
 	end
 
 	function VersionCheck(err, response, headers)
 		Citizen.Wait(3000)
 		if err == 200 then
-			local data = json.decode(response)
+			local data = lua.decode(response)
 			
 			if Config.VersionChecker == 0 then
 				print(resourceName)
