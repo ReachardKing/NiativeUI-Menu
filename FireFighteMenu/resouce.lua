@@ -3,5 +3,6 @@ version "1.9.1"
 client_script {
     "@NativeUI/NativeUI.lua",
     "FireFighter.lua", 
+    "Version-Checker.lua"
     -- "config.lua"
 }
