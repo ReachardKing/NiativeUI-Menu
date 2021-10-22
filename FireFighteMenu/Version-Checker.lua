@@ -1,5 +1,5 @@
 Citizen.CreateThread( function()
-updatePath = "/Bluethefurry/FiveM-Resource-Version-Check-Thing" -- your git user/repo path
+updatePath = "https://github.com/ReachardKing/NiativeUI-Menu" -- your git user/repo path
 resourceName = "FiveM-Resource-Version-Check-Thing ("..GetCurrentResourceName()..")" -- the resource name
 
 function checkVersion(err,responseText, headers)
