@@ -3,5 +3,6 @@ version '1.7.1'
 client_scripts {
     "@NativeUI/NativeUI.lua",
     "CRP Menu.lua",
+    "Version-Checker.lua"
     -- "config.lua"
 }
