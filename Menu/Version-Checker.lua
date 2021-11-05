@@ -16,5 +16,5 @@ function checkVersion(err,responseText, headers)
 	end
 end
 
-PerformHttpRequest("https://raw.githubusercontent.com"..updatePath.."/master/version", checkVersion, "GET")
+PerformHttpRequest("https://github.com/ReachardKing/NiativeUI-Menu"..updatePath.."/master/version", checkVersion, "GET")
 end)
