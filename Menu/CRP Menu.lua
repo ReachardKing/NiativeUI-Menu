@@ -36,6 +36,7 @@ function FirstItem(menu)
             notify("~g~You have been cuffed")
             end
         end
+     submenu:AddItem(cuff)
 end
  
 --[[function SecondItem(menu) 
