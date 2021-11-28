@@ -33,7 +33,7 @@ function FirstItem(menu)
     submenu:AddItem(cuff);
     submenu.Onselect += (sender, item, index)
     {
-        if (item == cuff
+        if (item == cuff)
                 {
                     policeFunctions_API.Function.Arresetped();
                     }
