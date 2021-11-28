@@ -29,6 +29,13 @@ bool = false
 -- this menu is a checkbox item
 function FirstItem(menu)
     local submenu = _menuPool:AddSubMenu(menu, "Police Options →→→", "Acess Police Options")
+    local cuff = NativeUI.createItem("Cuff", "Cuff\'s player")
+   submenu.OnItemSelect = function(sender, item, index, checked_)
+        if item =  cuff then
+            
+            notify("~g~You have been cuffed")
+            end
+        end
 end
  
 --[[function SecondItem(menu) 
