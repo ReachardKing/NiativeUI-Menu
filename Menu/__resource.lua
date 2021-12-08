@@ -4,6 +4,7 @@ client_scripts {
     "dependency/*", --untick this if you do not have NativeUI folder
     -- "@NativeUI/NativeUI.lua",
     "CRP Menu.lua",
+	'config.lua',
 	"Version-Checker.json"
     -- Add a congig if you know what your doing
 } 
