@@ -1,5 +1,5 @@
 print('CRPMenu Made by Mackenzie_Rich & Desired (CRPMenu)')
-
+--if you can do it without the cutome stuff, just let me know, or work on it here and send it to me
 local versionCheckEnabled = true
 
 Citizen.CreateThread( function()
