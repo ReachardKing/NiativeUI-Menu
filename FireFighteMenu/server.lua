@@ -1,1 +1,0 @@
-print("FFMenu Made by Mackenzie_Rich & Desired (FFMenu)")
