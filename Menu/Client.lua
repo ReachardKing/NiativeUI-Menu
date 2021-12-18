@@ -1,0 +1,1 @@
+print("\n^7Simple Menu Called (Canadian RP Menu) | ^6 Made By Mackenzie_Rich#2139^7") -- DO NOT REMOVE THIS
