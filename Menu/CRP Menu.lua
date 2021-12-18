@@ -126,37 +126,29 @@ end
 function FifthItem(menu)
     local submenu = _menuPool:AddSubMenu(menu, "Open Area →→→", "Opens ouside resources")
     local PoliceArmory =  NativeUI.CreateItem("PoliceArmory", "Select to open")
-    submenu.OnItemSelect = function(sender, item)
+    submenu.OnItemSelect = function(sender, item, index)
     if item == PoliceArmory then
         TriggerEvent('PoliceArmory')
         notify("~g~You were able to open PoliceArmory")
         end
     end
-    local PoilceFunctions = NativeUI.CreateItem("PoilceFunctions")
-    submenu.OnItemSelect = function(sender, item)
-        if item == PoilceFunctions then 
-            TriggerEvent('PoliceFunction')
-            notify("~g~Police Functions is opened")
-        end
-    end
     local Custome = NativeUI.CreateItem("Custome car spawner", "open Custome car spawner")
-    submenu.OnItemSelect = function(sender, item)
+    submenu.OnItemSelect = function(sender, item, index)
         if item == Custome then
             TriggerEvent('customspawner')
             notify("~g~You were able to open Custome car spawner")
         end
     end
-    local Menu = NativeUI.CreateItem("FireFighter", "Open's FFMenu")
-    submenu.OnItemSelect = function(sender, item)
-        if item == Menu then
+    local FireFighter = NativeUI.CreateItem("FireFighter", "Open's FFMenu")
+    submenu.OnItemSelect = function(sender, item, index)
+        if item == FireFighter then
             TriggerEvent('FFMenu')
             notify("~g~Sucessful")
         end
     end
     submenu:AddItem(PoliceArmory)
-    submenu:AddItem(PoilceFunctions)
     submenu:AddItem(Custome)
-    submenu:AddItem(Menu)
+    submenu:AddItem(FireFighter)
 end
 
 function SeventhItem(menu)
@@ -278,7 +270,7 @@ end
 function SexthItem(menu) 
    local submenu = _menuPool:AddSubMenu(menu, "~g~About →→→", "About CRP menu")
    local About = NativeUI.CreateItem("About", "This is a brand new menu made by ~b~Mackenzie_Rich") 
-   submenu.OnCheckboxChange = function (sender, item, checked_)
+   submenu.OnItemSelect = function (sender, item)
       -- check if what changed is from this menu
       if item == About then
            GetSelected()
@@ -286,9 +278,9 @@ function SexthItem(menu)
        end
    end
    local Version = NativeUI.CreateItem("CRP Version", "~r~1.7.6")
-   submenu.OnCheckboxChange = function(sender, item, checked_)
+   submenu.OnItemSelect = function(sender, item)
        if item == click then
-           GetVerion()
+           GetVerion('CRP version')
            notify("~g~No New Update")
        end
    end
