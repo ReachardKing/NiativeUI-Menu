@@ -39,23 +39,6 @@ Citizen.CreateThread(function()
 	VersionCheckHTTPRequest()
 end)
 
-function PrintDebugMessage(msg,level)
-	loglevel = (GetConvarInt("ea_logLevel", 1))
-	if not level or not tonumber(level) then level = 3 end
-	
-	if level == 1 and loglevel >= level then -- ERROR Loglevel
-		Citizen.Trace("^1"..GetCurrentResourceName().."^7: "..msg.."^7\n")
-	elseif level == 2 and loglevel >= level then -- WARN Loglevel
-		Citizen.Trace("^3"..GetCurrentResourceName().."^7: "..msg.."^7\n")
-	elseif level == 3 and loglevel >= level then -- INFO Loglevel 
-		Citizen.Trace("^0"..GetCurrentResourceName().."^7: "..msg.."^7\n")
-	elseif level == 4 and loglevel >= level then -- DEV Loglevel
-		Citizen.Trace("^7"..GetCurrentResourceName().."^7: "..msg.."^7\n")
-	elseif level > 4 and loglevel >= level then -- anything above 4 shouldn't exist, but kept just in case
-		Citizen.Trace("^5"..GetCurrentResourceName().."^7: "..msg.."^7\n")
-	end
-end
-
 function GetVersion()
 	local resourceName = GetCurrentResourceName()
 	local version = GetResourceMetadata(resourceName, 'version', 0)
