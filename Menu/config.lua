@@ -1,24 +1,5 @@
 config = {}
 
-local conf = {
-    x = "left", -- "left","right", center
-    y = 0.36, -- Change to what you want (maximum value should be 0.65, otherwise you will have to change "playersPerPage")
-
-    left = 0.13,
-    right = 0.85, -- looks about right for the width used.
-    center = 0.5
-}
-
-local x, y = conf.x, conf.y
-
-if type(x) == "string" then
-    x = conf[x]
-end
-if type(y) == "string" then
-    y = conf[y]
-end
-
-
 --[[
 --This is how the version check will be displayed in the server console
 --Full = 0 [Default] | Simple = 1 | Disabled = 2
