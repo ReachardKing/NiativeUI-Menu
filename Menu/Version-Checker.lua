@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
 	end
 
 	function VersionCheckHTTPRequest()
-		PerformHttpRequest('https://github.com/ReachardKing/NiativeUI-Menu/blob/main/Menu/Version-Checker.json', VersionCheck, 'GET')
+		PerformHttpRequest('https://github.com/ReachardKing/NiativeUI-Menu/blob/main/Menu/Version-Checker.lua', VersionCheck, 'GET')
 	end
 
 	function VersionCheck(err, response, headers)
@@ -36,7 +36,7 @@ Citizen.CreateThread(function()
 		SetTimeout(60000000, VersionCheckHTTPRequest)
 	end
 
-	VersionCheckHTTPRequest()
+	VersionCheckHTTPRequest('https://github.com/ReachardKing/NiativeUI-Menu/blob/main/Menu/Version-Checker.lua', VersionCheck, 'GET')
 end)
 
 function GetVersion()
