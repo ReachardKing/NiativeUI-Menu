@@ -15,8 +15,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(3000)
 		if err == 200 then
 			local Data = json.decode(response)
-			if CurrentVersion ~= Data.NewestVersion then
-				print( label )			
+			if CurrentVersion ~= Data.NewestVersion then		
 				print('  ||    \n  ||    CRP Menu (Canadian RP menu) is outdated!')
 				print('  ||    Current version: ^2' .. Data.NewestVersion .. '^7')
 				print('  ||    Your version: ^1' .. CurrentVersion .. '^7')
@@ -36,12 +35,5 @@ Citizen.CreateThread(function()
 		SetTimeout(60000000, VersionCheckHTTPRequest)
 	end
 
-	VersionCheckHTTPRequest('https://raw.githubusercontent.com"', VersionCheck, 'GET')
+	VersionCheckHTTPRequest()
 end)
-
-function GetVersion()
-	local resourceName = GetCurrentResourceName()
-	local version = GetResourceMetadata(resourceName, 'version', 0)
-	local is_master = GetResourceMetadata(resourceName, 'is_master', 0) == "yes" or false
-	return version, is_master
-end
