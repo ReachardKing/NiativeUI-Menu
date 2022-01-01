@@ -22,7 +22,7 @@ PoliceFunctions
 chatcommands
 speed Indecator
 UltamateBankHist
-[All-Have-dependency-in-it's-own-way]
+[Some-Have-it'\s-own-dependency]
 
 Here is the link for controls https://docs.fivem.net/docs/game-references/controls/
 Here is the link for Jeva https://www.youtube.com/channel/UCI7x329xu2rLbtVvFPVIhiQ
