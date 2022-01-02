@@ -5,9 +5,9 @@ client_scripts {
     -- "@NativeUI/NativeUI.lua",
     "Client.lua",
     "CRP Menu.lua",
-    "functions.lua",
-	"Version-Checker.lua",
-    "Version-Checker.json"
+    "functions.lua"
+    
 }
     
 server_script "Server.lua"
+server_script "Version_Checker.json"
