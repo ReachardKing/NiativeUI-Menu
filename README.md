@@ -3,7 +3,7 @@
 New Realse: https://github.com/ReachardKing/NiativeUI-Menu/releases
 
 By Mackenzie_Rich
-# My Mods
+# CandianRP Menu Is Now deprecated!
 Some  NiativeUI Menu.
 Don't  DM me if there is any problems.
 Links:
