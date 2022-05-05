@@ -1,7 +1,7 @@
 (C) Do not redistribute this files or claims the resources has your own. 
 
 New Realse: https://github.com/ReachardKing/NiativeUI-Menu/releases
-
+For the fuel-Work-mod use the ESX config cords for fishing locations and for boating, do not write ant ESX code for it !!!! 
 By Mackenzie_Rich
 # CandianRP Menu Is Now deprecated!
 Some  NiativeUI Menu.
